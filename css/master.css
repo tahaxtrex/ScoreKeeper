@@ -1,0 +1,32 @@
+
+h1{
+  color: rgba(3, 41, 72, 0.647);
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 4em;
+}
+
+label{
+  display: inline;
+}
+
+
+#mysection{
+
+  width: 30%;
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+}
+
+img{
+
+  width: 100%;
+  height: auto;
+
+}
