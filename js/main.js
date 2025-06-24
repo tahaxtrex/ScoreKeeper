@@ -28,7 +28,7 @@ button2.addEventListener('click', function(){
     p2 += 1;
     scoreboard.textContent = `${p1} to ${p2}`;
     if(p2 === winningscore){ 
-      alert('player 1 won!! ')
+      alert('player 2 won!! ')
       gameover = true
     }
   }
