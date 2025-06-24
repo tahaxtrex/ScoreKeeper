@@ -1,7 +1,8 @@
 const button1 = document.querySelector('#playera');
 const button2 = document.querySelector('#playerb');
 const resetbutton = document.querySelector("#reset")
-let scoreboard = document.querySelector("h2")
+let scoreboard = document.querySelector("h2");
+const scoreselect = document.querySelector("#scoreselect");
 
 let p1 = 0;
 let p2 = 0;
@@ -42,7 +43,13 @@ resetbutton.addEventListener('click', function(){
 })
 
 
-
+scoreselect.addEventListener('change', function(){
+  winningscore = parseInt(this.value);
+  p1 = 0;
+  p2 = 0;
+  gameover = false;
+  scoreboard.textContent = `${p1} to ${p2}`;
+})
 
 
 
